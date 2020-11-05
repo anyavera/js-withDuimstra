@@ -15,14 +15,12 @@
 
 	var myFarm = ['chikens', 'pigs', 'cows', 'goats'];
 
-	console.log(myFarm[0][0]);
-
-	// for (var i = 0; i < myFarm.lenght; i++) 
-
-
-	// {
-	// 	if (myFarm[i].charAt)
-	// }
+	for (var i = 0; i < myFarm.lenght; i++) {
+		if (myFarm[i].charAt(0) === 'c') {
+			alert('this animal starts with a "c": ', +myFarm[i]);
+		}
+	}
+	
 	</script>
 <p>Если вы хотите работать с DOM или CSS, нажмите правой кнопкой на элемент на странице и выберете Inspect для перехода на вкладку Elements.  Или нажмите Command+Option+C (Mac) или Control+Shift+C (Windows, Linux, Chrome OS).
 Если вам нужно увидеть залогированные сообщения или запустить JavaScript, нажмите на Command+Option+J (Mac) или Control+Shift+J (Windows, Linux, Chrome OS) для перехода на панель Console.
