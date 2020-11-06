@@ -4,19 +4,18 @@
 	<title>Data Types, User Input, Consithional Logic - Uncommented</title>
 </head>
 <body>
-	<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">See the date</button>
-	
-	<p id="demo"></p>
-	
-	<script type="text/javascript">
-		for (var i = 0; i < 10; i++) {
-			console.log(i);
 
-			var rand = Math.random();
 
-			console.log(rand);
-		}
-	
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+<script type="text/javascript">
+	document.getElementById("demo").innerHTML = 5+66;
+
 	</script>
 <p>Если вы хотите работать с DOM или CSS, нажмите правой кнопкой на элемент на странице и выберете Inspect для перехода на вкладку Elements.  Или нажмите Command+Option+C (Mac) или Control+Shift+C (Windows, Linux, Chrome OS).
 Если вам нужно увидеть залогированные сообщения или запустить JavaScript, нажмите на Command+Option+J (Mac) или Control+Shift+J (Windows, Linux, Chrome OS) для перехода на панель Console.
